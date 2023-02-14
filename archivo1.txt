@@ -1,0 +1,2 @@
+primera linea dentro del archivo1.txt
+modificar nombre del archivo con mv, restaurarlo con git restore y volver a agregarlo con add
