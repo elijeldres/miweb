@@ -1,0 +1,2 @@
+primera linea de texto en archivo2.txt
+agregando una segunda linea de texto luego de hacer git add 
