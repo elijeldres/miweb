@@ -1,0 +1,100 @@
+
+
+nav {
+  background-color: #E8D7FF;
+  padding: 10px;
+  margin: -8px;
+}
+
+a {
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: Helvetica;
+  color: #151814;
+}
+
+a:visited {
+  color: #858C7B;
+} 
+
+a:hover {
+  background-color: #DFFFD6;
+  text-transform: uppercase;
+  padding: 10px; 
+}
+
+a:active {
+  background-color: #F3FFE1;
+}
+
+
+ul {
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+  }
+  
+h1 {
+  color: rgb(216, 41, 70);
+  background-color: HoneyDew;
+  font-family:sans-serif;
+  letter-spacing: 2.5em;    /* to add space between letters*/
+}
+
+h2 {
+  color: pink;
+  font-family:sans-serif;
+  word-spacing: 2.5em;    /* to add space between words */
+}
+p {
+  background: HoneyDew;
+  font-family: serif;
+  line-height: 2em;    /* to add space between lines of text*/
+}
+
+.miul {
+  background: HoneyDew;
+  display: flex;
+  font-size: large;
+
+}
+
+strong {
+  color: Teal;
+  background-color: LemonChiffon;
+}
+
+a {
+  color: Teal;
+}
+  
+
+.miarticulo{
+  display: flex;
+
+}
+
+.miarticulo p{
+  padding: 10px;
+  margin: 10px;
+}
+.articulo2 h2{
+  position: relative;
+  top: 0;
+}
+
+article p strong {
+  color: brown;
+}
