@@ -1,0 +1,544 @@
+curso  open classroom
+
+Build your first Web page with HTML ans CSS
+
+
+																			1 Part
+
+															1 Chapter: Write your first lines of HTML and CSS
+HTML: 
+CSS: Cascade Style Sheets
+
+1) Write your content in HTML., Decorate you content with CSS.
+Because this allows either one to change without the other being affected.
+
+
+															2 Chapter: Create content usinf HTML
+using : 
+
+<h1>.....</h1>  Headlines tag
+<p>.......</p>  Paragraph  
+
+															3 Chapter : Decorate your content with CSS.
+allows you to set styles, decoration, beauty 
+ 
+h1 {
+    color : red;   
+    font-family: Arial;
+    }
+
+meaning: 
+h1: I will change the headline tag in HTML
+color: CSS property
+font-family: this is also a CSS property to set the font of your text
+
+CSS applied to HTML
+
+There are two steps while using CSS to make your HTML look awesome:
+
+**Identify and select the relevant HTML element (ex. paragraph, header, etc).
+
+**Add some styles (specify how it should look).
+
+**Let's say we want the text of our paragraph to be blue:
+
+						TEST
+
+
+																		2 part Create HTML text elements
+
+														1 Chapter: Create headings for strong page structure
+
+*Adding structure to a text creates a hierarchy for the content in an immediate, easy-to-understand way.
+*Create headings in HTML by using tags that include a lowercase "h" and a number from 1-6. The numbers 1 -6 let you control the default 
+	size of your heading and therefore the importance it has in your page structure.
+*As the number from 1-6 increases, the heading becomes smaller!
+
+		
+														2 Chapter : Add text in paragraphs
+
+ There's only one default type of paragraph, It's simply <p>, verbally known as a "p" tag.
+
+		
+														3 Chapter : Strenthen and emphasize text 
+
+<strong>......</strong>  for bold ( put attention)
+<em>..........</em>  italics(ed)  for  emphasized more precise scientific or linguistic names. 
+
+Remember that HTML controls content, not appearances. CSS controls appearances instead. By adding <strong> or <em> tags around text you want to make stronger or emphasize, you can use CSS later to change the default behavior of that text. For example, even though <strong> makes text bold by default, you can add custom CSS to make <strong> elements red instead of bold. Either way, the text is stronger. Making it "bold" isn't what counts; it's the importance of the text that matters, and how you reflect that in the text's appearance is up to you.
+		
+		
+														4 Chapter : Add links and unders attributes
+
+Hyperlinks — "links" for short — are the core of the web. They let you hop from one page to another, connecting all information online.
+
+<a> tag= "a" stands for "anchor."
+The <a> tag defines a hyperlink, which is used to link from one page to another.
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+By default, links will appear as follows in all browsers:
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+Attributes When you do need to give an element additional information, you add it within the opening tag. In the case of links,
+	
+	
+					** attribute called href:
+
+	ej:
+	<a href = "http://openclassroom.com">Open CLassroom</a>
+
+Give name of the attribute (in our case, "href")
+Add an equal sign
+Add the contents of the attribute in quotes (in this example, the URL of the website we want to link)
+
+					** attribute called target
+	target="_blank"  , you create a link that opens in a new window.
+	
+	Don't forget your href attribute as well. Here are the two attributes combined within the same <a> opening tag:
+
+<a href="[https://maps.google.com/](https://maps.google.com/)" target="_blank">Go to Google Maps</a>
+
+	
+	
+														5 Chapter : Organize elements in a list 
+
+## Unordered lists (you may be familiar with them as bulleted lists) ul
+
+To create lists like this, the HTML tag <ul> is appropriate. <ul> stands for unordered list.
+you need another HTML tag: <li>, which stands for list item.
+The <li> tags are indented to the right, relative to the <ul> tags, because it's important for code readability. Developers indent elements
+ when they're inside other elements (they're called "nested elements" in developer vocab). Because the <li> tags are inside a set of <ul> tags, 
+ they are indented one level. You'll notice code indentation throughout this course.
+
+## Ordered lists (you may be familiar with them as numbered lists) ol
+
+reate numbered lists using the tag <ol>. <ol> stands for ordered list. As usual, wrap your list items in an <ol> opening tag and </ol>
+closing tag.
+				
+				
+														6 Chapter : Add images to your web page
+
+The <img> tag
+The tag for images, which is <img>, is different in this regard. Image tags can just stand by themselves: <img>. No closing tag necessary!
+
+All the information necessary for the image to be displayed is placed in the attributes of the first tag. You will often see three attributes
+ on images:
+src
+alt
+title
+
+Here's what the HTML for an image might look like:
+<img 
+src="https://upload.wikimedia.org/wikipedia/commons/7/77/NASA-MHughes-Fulford.JPG" # source where stand the image
+alt="Astronaut Millie Hughes-Fulford displays the modernist Blackburn & Danne NASA logotype." # alternative text description of,
+	 or descriptive text of the image 
+	 important: SEO stands for Search Engine Optimization, which is concerned with, among other things, improving the quality and 
+	 the quantity of user traffic to websites. 
+	 * can also be empty.
+title="Millie Hughes-Fulford"> # a tittle 
+
+Image placement
+You can place images wherever you like on your page, but you'll get different results even with subtle changes.
+For example, placing the image within a <p> tag makes the image appear on the first line of the paragraph:
+
+Placing it above a <p> tag makes it appear above the paragraph:
+
+Figures
+Now that you know how to insert images plain and simple, HTML also offers a specific kind of image tag for figures. A figure is an image that 
+could be moved around in your web page without dramatically altering the "flow" of the page. This is similar to how we think of figures in 
+an encyclopedia, for example. Because they're labelled, they can be next to one paragraph or another, and it doesn't really matter.
+
+Figures also allow for captions. Fun fun! To insert a figure, surround your <img> tag with two other tags: <figure> and <figcaption>.
+	
+
+														7 Chapter : Use the best images possible
+
+Adobe Stock (they often have free trials running): https://stock.adobe.com
+
+Shutterstock: http://www.shutterstock.com/
+
+iStock: http://www.istockphoto.com/
+
+Getty Images: http://www.gettyimages.com/
+
+Fotolia: https://fotolia.com/
+
+Picography (free, more niche/hipster): https://picography.co 
+
+JPEG
+Most digital cameras save photos in JPEG or JPG (they're the same thing) format because it can blend red, green, and blue to produce many colors. JPEG is a good format to use when adding a photo with many colors or with photography in general. After all, the JPEG stands for Joint Photographic Experts Group. Sample image files could be  winter_landscape.jpg  or  family_portrait.jpeg  .
+
+GIF
+Everyone loves animated GIFs. That's because this file type is perfect for animated images. It's less suited to photography though because it can't handle as many colors. You can still use it for still photos with very few colors, like simple logos. It also allows for transparency, which JPEGs do not. A sample image file could be  brand_logo.gif  or  dancing_bear.gif  .
+
+PNG
+There are two different types of PNG formats, PNG-8 and PNG-24. The latter allows for more colors, but both formats allow transparency and do not result in quality loss when saved over and over again (unlike JPEGs). PNG stands for Portable Network Graphics. A sample image file could be  simple_illustration.png  or  transparent_background_cutout.png  .
+
+SVG
+If the name "Scalable Vector Graphics" doesn't give it away, SVG images are vector images. They can be scaled up or down and not lose any quality. However, they're only suited to simple images like logos or flags. Sample image files could be  logo.svg  or  american_flag.svg  .
+
+One of the most important things you can do when building great web pages is to keep your image sizes reasonable and to measure your images in pixels. If you want to show an image at a size of 200px by 200px, it should be saved at that size. This will help your pages load faster!
+
+																	TEST
+
+				
+				
+																3	 Part
+														1 Chapter: Create general page structure
+Structural elements in HTML include:
+
+<header>: the section at the top of a web page that often includes a logo and sometimes a nav
+
+<nav>: a set of menu items that allow a user to navigate to different pages on a site
+
+<section>: a general section of related content
+
+<article>: a piece of content that can be independently shared, like a blog post or newspaper article (even if you don't display the full
+ article text, like you just show a preview, you can still use an article tag to delineate this content)
+
+<footer>: the section at the bottom of a page that often has additional links and perhaps social sharing icons
+
+<aside>: content that is complementary but not crucial to the page's main content (this could be an informative side section on a related subject)
+
+<figure>: a grouped image and caption that create an informative visual of some kind
+
+This is the core of semantic HTML: your code should match your content! The sooner you start thinking in terms of content zones as 
+presented above, the better your HTML will be and the more you can adapt your CSS to make your site look differently on desktop, mobile, and more.
+
+				
+				
+														2 Chapter : Understand block-level and line elements 
+			
+ Every HTML element has a default block-level or inline behavior. Paragraphs are block-level elements, which means that they block off
+  a whole line for themselves, and images are inline elements, which means they will automatically be placed next to one another on the same line.
+
+Block-level elements that you've seen so far include:
+
+Headings
+Paragraphs (p)
+Lists and list items (ul, ol, li)
+Structuring elements (header, nav, section, article, aside, figure, footer)
+
+Inline elements that you've seen so far include:
+
+Images (img)
+Emphasized text (em)
+Strong text (strong)
+Links (a)
+
+														3 Chapter : Group content with divs and spans 
+
+DIVS Most of the time, when you want to group content together, you'll be able to do it using an HTML5 semantic element like header, nav, 
+section, article, footer, figure, or aside. However, sometimes your content doesn't really fit any of these categories! In that case,
+ you're encouraged to use divs to create block-level content groups.
+
+( works as highlight a part of a paragraph *)
+
+SPANS are similar to divs, except they are inline elements. You might use them to group words together, since words appear inline and not 
+each on their own line.
+( simple highlight *)
+
+
+
+														4 Chapter : Add classes and ids to elements
+
+custom attribute: Since they're all just <p> tags, you won't be able to apply CSS (appearance) changes to some paragraphs but not others.
+This is where classes and ids enter the scene.
+
+Classes and ids are custom attributes you can add to your elements in order to distinguish them from one another.
+
+<p class ="warning"> 
+class= to customices different P. 
+<p id="this is id" > custom visual for one element per page
+Lesson: don't name classes and ids to describe an element's appearance. Name them to describe an element's function or context.
+
+														5 Chapter : Add breaks and lines to your content 
+* Remember those are unique tags 
+
+Line breaks
+Paragraphs are block-level elements, meaning they take up the width of their containing element by default. They also have spacing above and 
+below them. It's more than a simple line break.
+<br> tag. There is no closing tag necessary.
+ej: This is true especially for addresses and poems.
+
+To create a line, or a "horizontal rule" in HTML, simply use an <hr> tag
+
+
+														6 Chapter : Add head to your HTML for information about your website
+				
+As you start creating real pages with all of this awesome content on them, you'll need to give browsers information about the pages themselves.
+Information about web pages, like their titles, icons, social sharing images, and descriptions live in an area of your HTML document 
+called the head.
+The head will contain information about the page.
+
+This HTML page structure is not very "fun" to create because it has no visible content yet, but it is very necessary.
+
+1) First, define the document type, which is HTML. This should become a line of code you robotically type when you're creating new HTML, 
+and you don't need to think about it much beyond this.
+
+2) Start your HTML content with an opening <html> tag that includes a language attribute. This could be "en" for English, "fr" for French,
+ "hi" for Hindi, or something else. It helps screenreaders (a tool used people who have difficulty seeing) know which language to read out loud.
+ There are more than 8000 languages to choose from, but in your career, you'll probably use a few at most.
+
+3) Define and close the document's <head>.
+
+4) Define the document's body and fill it with the elements you've already learned about in this course (sections, articles, headings,
+ paragraphs, images, whatever's necessary for your page).
+
+5) Conclude your HTML content with a closing </html> tag.
+
+<head>
+Some common information is almost always included in a HTML file's head:
+* page title
+* links to your CSS files or page icon
+* meta data that used for social sharing
+
+<!--    -->  comments
+
+															Part 4  Spice up your content with CSS
+														1 Chapter : Apply CSS to elements.
+
+sintaxis: 
+selector {
+	property(n) : value(n);
+}
+description:
+*selector: the HTML element you want to modify. It's called a "selector" because you're selecting the element. Fancy that!
+*property: the element's CSS property you want to modify, like its color, spacing, etc.
+*value: the new value of the CSS property, like "blue" for its color.
+example: 
+p {
+    color: white;
+    background-color: blue;
+    font-family: Arial;
+}
+
+														2 Chapter : Decide where to write CSS
+
+CSS can be written either:
+
+1) outside your HTML file : External CSS ( best option)
+In a HTML and CSS project, you often have the following file structure:
+
+There is:
+- A general folder for the project ("website").
+- The "website" folder contains a file called index.html.
+- The "website" folder contains another folder called "css."
+- The "css" folder contains a file called "style.css."
+- You might have a folder called images as well that will contain the images used in your web pages.
+ 
+ example: 
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YOUR PAGE TITLE</title>
+        <link href=“css/style.css” type=“text/css” rel=“stylesheet” /> 
+    </head>
+    <body>
+        <h1>SOME HTML, WOOHOO</h1>
+    </body>
+</html>
+
+how to write CSS: 
+
+1) body {}
+
+2) id= #id_name ( es importante colocar antes un #)
+ex: 
+HTML : 
+<h2 id="article-1">Article I (Article 1 - Legislative)</h2>
+CSS:  
+#intro {
+  font-family: 'Andale Mono';
+
+
+
+
+2) inside your HTML file
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internal CSS</title>
+        <style type=“text/css”>
+            h1 {
+                color: green;
+            } 
+        </style> 
+    </head>
+    <body>
+        <h1>SOME HTML, WOOHOO</h1>
+    </body>
+</html>
+
+
+
+
+
+														4 Chapter : Understand color Theory
+														https://htmlcolorcodes.com/color-picker/
+
+We'll check out the following ways to set color:
+
+1) Hex codes:  6-digit string of numbers and letters that represents the red, green, and blue values of a color in hexadecimal format.
+example: 
+h1 {
+    color: #1BDA76;
+}
+
+2) RGB values: "Red, Green, Blue"
+example:
+h1 {
+    color: rgb(27, 218, 118);
+}
+
+3) Color names:  we can't set an exact match to our color above using a simple color name. Do not use it often
+example: 
+h1 {
+    color: LightGreen;
+}
+
+4) HSL values:  hue, saturation, and lightness. It is intended to be a more human-understandable format.
+example:
+h1 {
+    color: hsl(149, 88%, 48%);
+}		
+
+														5 Chapter : Set Fonts
+
+Font-family property: you can't just set its value to any font and assume it'll work for every user. A font will only display correctly if 
+the user already has it installed on their computer.
+
+That's why the font-family property will often contain multiple values that serve as fallbacks if a user doesn't have a certain font installed.
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+Helvetica will display just fine if the user has it installed on their machine. Specifying additional fonts allows for a similar font to be 
+used if the user doesn't have Helvetica installed.
+
+If you want to use a font that is more than one word, you must put it in quotation marks, such as  font-family: 'Helvetica Neue';  .
+
+- Use the same fonts consistently for content types.
+- Combine a sans-serif headline with a serif paragraph.
+
+To include an installed font as part of your project, you need to define a font-face rule (starting with an @ sign) that defines the font 
+family and the location of the downloaded font file:
+
+@font-face {
+    font-family: 'Milkshake';
+    src: url('fonts/milkshake.otf');
+}
+
+h1 {
+    font-family: Milkshake;
+}
+As you can see, our special font is called Milkshake. We've saved the downloaded font in a file called "fonts" and told the CSS file to go 
+find it there.
+
+Different font file types can work differently depending on the user's browser. If you're interested in exploring this route,
+ check out this article that explains the difference between font file types like .eot, .otf, and more:
+  https://creativemarket.com/blog/the-missing-guide-to-font-formats
+
+
+														6 Chapter : Control font sizes, line spacing, and word spacing
+
+Font sizing
+Several units of measurement are available to control font size in CSS:
+
+pixels: The default body text size in CSS is 16px. By "body text", we mean the height of paragraph text. This is the most fundamental 
+text on any website, and 16px is an important number to keep in mind as you start working with the other units described in this chapter.
+
+em:  1em is equal to the default body (paragraph) text size of 16px. To set a font size of 32 px, you would use 2em.
+
+rem: A rem is similar to an em, except that it doesn't compound. When using ems, if you have an element at a size of 2em inside another 
+element of 2em, the inner element will be shown at 4em. When using rems, it will still be shown at 2rem.
+
+percentages: Setting sizes via percentages is similar to setting them using ems. 
+
+16 px = 1 em/rem = 100 % = (size)average
+
+properties: 
+Font size : to adjust the size of text using any of the units above.	
+
+line-height
+In school, you may have been asked to submit essays that were single-spaced or double-spaced (or even 1.5-spaced)!
+In CSS, you control the vertical space between lines of text using the line-height property. This can particularly help with
+ the readability of long paragraphs.
+
+letter-spacing 
+Increasing the space between letters is often useful when dealing with headings in all-caps. You should always give this value in the em 
+or rem unit so it is proportional to the font the user has set in their browser. The spacing will be added on top of the default spacing.
+
+word-spacing
+You won't often need to increase the space between words, but it can be useful for poetic or literary effect. You should always give this
+ value in the em or rem unit so it is proportional to the font the user has set in their browser.
+
+
+
+														7 Chapter :  Trick your text
+
+
+** font-weight:
+	Adapting the weight of your font via CSS will cause your text to appear bolder or lighter than normal
+ 	Sometimes, you'll want a heavier font weight just for the sake of appearances — not for emphatic content. Use the font-weight property instead!
+	a {                                 a{
+	    font-weight: normal/ bold;   =     font-weight: 400/ 700;
+	}                                    }
+	You can also set a font-weight of less than 400, which often gives a nice result but depends on the font you're using:
+
+**font-style:
+	a {
+	    font-style: italic;
+	    font-weight: 200;
+	}
+
+		The font-style property has two other possible values: normal and oblique. Oblique text vaguely resembles italic text but takes up more
+	horizontal space. You'll rarely use it.
+
+** text-decoration:
+	We've gone this whole course without talking about how to underline text. The <strong> HTML tag produces bold text by default, the <em> HTML
+	tag produces italicized text by default, but no HTML element produces underlined text by default.
+	You must use CSS to accomplish this, no matter what. The text-decoration property will help you out.
+
+	It can take multiple values
+	underline : subraya
+	none: nada
+	line-through: tacha
+	wavy underline: olas bajo ( feo)
+	dashed underline:entre cortado (feo)
+
+** text-transform property:
+	will most often take one of the following values
+	capitalize
+	uppercase
+	lowercase
+Creating letter-case harmony in navigation bars can be a pleasing visual effect:
+example: 
+a {
+    font-weight: 200;
+    font-family: Helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #151814;
+}
+
+**Styles based on status
+	You'll sometimes want to apply styles when an element has a particular status, like when a link has been visited or when the user is 
+	hovering over an element with their mouse.
+	Enter CSS pseudo-classes. Despite the sci-fi-sounding name, their syntax is simple! Just add a colon and the name of the pseudo-class
+	 onto your selected element.
+	We'll cover only a few pseudo-classes in this chapter that are commonly applied to links:
+	Styles based on status
+You'll sometimes want to apply styles when an element has a particular status, like when a link has been visited or when the user is
+ hovering over an element with their mouse.
+Enter CSS pseudo-classes. Despite the sci-fi-sounding name, their syntax is simple! Just add a colon and the name of the pseudo-class 
+onto your selected element.
+
+CSS rule: if you're using them, you should specify pseudo-classes in a particular order. That order is :visited, :hover, and then :active.
+:visited : when mark 
+:hover: no idea 
+:active= when clicked
+
